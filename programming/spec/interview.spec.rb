@@ -42,8 +42,6 @@ describe 'Power test' do
 				(pow(x, n) == (x**n)).should be_true
 			end
 		end
-
-		(pow(4, -0.5) ==  0.5).should be_true
 	end
 
 	it 'result of X^n, where n>0 should be OK' do
@@ -52,8 +50,6 @@ describe 'Power test' do
 				(pow(x, n) ==  x**n).should be_true
 			end
 		end
-
-		(pow(4, 0.5) ==  2.0).should be_true
 	end
 end
 
